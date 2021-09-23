@@ -1,0 +1,26 @@
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/PF2_Scala/isabelalujan-calnatsuma/src/main/scala/co/s4n/calnat/Main.scala:31:46: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    def imprimirNat(nat:Nat):String = println(nat.toString)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/PF2_Scala/isabelalujan-calnatsuma/src/main/scala/co/s4n/calnat/Main.scala:34:46: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: co.s4n.calnat.Nat[0m
+[0m[[0m[31merror[0m] [0m[0m        if (esMayorIgual(nat1,nat2) == true) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/PF2_Scala/isabelalujan-calnatsuma/src/main/scala/co/s4n/calnat/Main.scala:38:20: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: co.s4n.calnat.Nat[0m
+[0m[[0m[31merror[0m] [0m[0m            println("No se puede hacer la operación")[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/PF2_Scala/isabelalujan-calnatsuma/src/main/scala/co/s4n/calnat/Main.scala:44:34: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: co.s4n.calnat.Nat[0m
+[0m[[0m[31merror[0m] [0m[0m    println(imprimirNat(restaNat(primerEntero,segundoEntero)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/PF2_Scala/isabelalujan-calnatsuma/src/main/scala/co/s4n/calnat/Main.scala:44:47: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: co.s4n.calnat.Nat[0m
+[0m[[0m[31merror[0m] [0m[0m    println(imprimirNat(restaNat(primerEntero,segundoEntero)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

@@ -1,0 +1,4 @@
+1632426146791:compile
+1632426454385:def esMayorIgual(nat1:Nat,nat2:Nat):Boolean = nat1 match {\n        case Cero() => nat2 match {\n            case Cero() => true\n            case _      => false\n        }\n        case Suc(pnat) => nat2 match {\n            case Cero() => true\n            case Suc(snat) => esMayorIgual(pnat, snat)\n        }\n    }
+1632426994435::q
+1632427000313:exit
